@@ -1,0 +1,57 @@
+.header-container {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .header-container__contact-info {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    .contact-info__text {
+      font-size: 12px;
+      line-height: 16px;
+      font-weight: 600;
+      font-style: semi-bold;
+      font-family: "BR Sonoma Regular", sans-serif;
+    }
+
+    &div > p {
+      font-size: 12px;
+      line-height: 16px;
+      font-weight: 600;
+      font-style: semi-bold;
+      font-family: "BR Sonoma Regular", sans-serif;
+    }
+
+    .contact-info__number {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 18px;
+      line-height: 20px;
+      font-weight: 700;
+      font-style: bold;
+      font-family: "BR Sonoma Regular", sans-serif;
+    }
+
+    &div > p {
+      font-size: 18px;
+      line-height: 20px;
+      font-weight: 700;
+      font-style: bold;
+      font-family: "BR Sonoma Regular", sans-serif;
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .header-container {
+    height: 56px;
+
+    .contact-info__text {
+      display: none;
+    }
+  }
+}

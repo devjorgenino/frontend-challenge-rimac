@@ -1,0 +1,32 @@
+.plans-subtitle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    font-style: regular;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: "Lato Regular", sans-serif;
+    margin: 0;
+    max-width: 544px;
+    text-align: center;
+    margin-bottom: 32px;
+    color: #141938;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .plans-subtitle-container {
+    p {
+      text-align: left;
+      font-style: regular;
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 28px;
+      font-family: "Lato Regular", sans-serif;
+      color: #141938;
+    }
+  }
+}
